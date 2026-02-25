@@ -1,0 +1,86 @@
+
+*{
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+body::before{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.928), rgb(0, 0, 0));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    z-index: 2;
+}
+
+/*VERMELHO*/
+.bg-vermelho{
+    background-color: #c33;
+}
+.bg-vermelho:hover{
+    background-color: rgb(113, 27, 27);
+}
+ .borda-vermelha{
+  border: 2px solid #c33;  
+ }
+ .borda-vermelha:hover{
+    border: 2px solid #f63d3d;
+}
+.texto-vermelho{
+    color: #c33;
+}
+.texto-vermelho:hover{
+    color: #f63d3d;
+}
+
+/* LARANJA */
+.bg-laranja {
+  background-color: #c60;
+}
+.bg-laranja:hover{
+    background-color: #804001;
+}
+.borda-laranja {
+  border: 2px solid #c60;
+}
+.texto-laranja {
+  color: #c60;
+}
+.texto-laranja:hover{
+    color: #f8922c;
+}
+
+/* ROXO */
+.bg-roxo {
+  background-color: #63f;
+}
+.bg-roxo:hover {
+  background-color: #2d1d5c;
+}
+.borda-roxo {
+  border: 2px solid #63f;
+}
+.borda-roxo:hover{
+    border:  2px solid #794ffa;
+}
+.texto-roxo {
+  color: #63f;
+}
+.texto-roxo:hover{
+color: #794ffa;
+}
+
+/*BRANCO*/
+.texto-branco{
+    color:#f1f1f1;
+}
