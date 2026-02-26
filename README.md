@@ -10,11 +10,11 @@ O design visual do projeto foi criado do zero, desde a concepção até a implem
 Todo o layout, identidade visual, tipografia e hierarquia de cores foram **desenvolvidos no Photoshop**, antes da etapa de codificação, garantindo fidelidade entre o design e o produto final.
 
 ## Funcionalidades
-- Alteração dinâmica de tema (Vermelho, Laranja e Roxo)
-- Atualização automática das cores do título e botões
-- Interface moderna e responsiva
-- Uso de SVG inline para melhor performance e controle visual
-- Código limpo, organizado e fácil de escalar
+- Alteração dinâmica de tema (Vermelho, Laranja e Roxo).
+- Atualização automática das cores do título e botões.
+- Interface moderna e responsiva.
+- Uso de SVG inline para melhor performance e controle visual.
+- Código limpo, organizado e fácil de escalar.
 
 ## Tecnologias Utilizadas
 - HTML5
@@ -26,13 +26,13 @@ Todo o layout, identidade visual, tipografia e hierarquia de cores foram **desen
 ## Objetivo do Projeto
 Demonstrar habilidades em **Front-end**, **UI/UX**, **manipulação do DOM**, **organização de código** e **atenção a detalhes visuais**, aplicando boas práticas de desenvolvimento moderno.
 
-## Melhorias
-Irei implementar responsividade para dispositivos mobile em breve.
+
 
 ## 📸 Preview
 <img width="1087" height="610" alt="image" src="https://github.com/user-attachments/assets/1b48d75a-968d-4b0d-9270-b8146b1bf53f" />
 <img width="1081" height="612" alt="image" src="https://github.com/user-attachments/assets/8b470c7f-8f3b-4251-95b4-fe7eef20b7a6" />
 <img width="1092" height="616" alt="image" src="https://github.com/user-attachments/assets/5cf93970-04f9-4bad-a4d2-aa2be368156a" />
+
 
 
 
