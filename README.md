@@ -1,4 +1,4 @@
-# 🎨 Portfolio com Theme Switcher Dinâmico
+# 🎨 Projeto com Theme Switcher Dinâmico.
 
 Projeto pessoal desenvolvido com **HTML, CSS e JavaScript**, focado em **UI moderna**, **experiência do usuário** e **personalização visual**.
 
@@ -29,6 +29,7 @@ Demonstrar habilidades em **Front-end**, **UI/UX**, **manipulação do DOM**, **
 <img width="1087" height="610" alt="image" src="https://github.com/user-attachments/assets/1b48d75a-968d-4b0d-9270-b8146b1bf53f" />
 <img width="1081" height="612" alt="image" src="https://github.com/user-attachments/assets/8b470c7f-8f3b-4251-95b4-fe7eef20b7a6" />
 <img width="1092" height="616" alt="image" src="https://github.com/user-attachments/assets/5cf93970-04f9-4bad-a4d2-aa2be368156a" />
+
 
 
 
