@@ -9,35 +9,36 @@
 </head>
 <body class="flex flex-row overflow-hidden">
 
-    <section class="px-40 py-12 relative z-50 w-100% flex flex-row">
-        <div class="">
+    <section class=" px-4 py:2 flex-column    md:px-40 md:py-12 relative z-50 w-100% flex lg:flex-row">
+        <div class="mt-56 md:mt-0">
             <div>
-                <h1 id="titulo-nome" class=" text-[7rem] texto-vermelho font-bold tracking-tight"> Thiago Silva</h1>
+                <h1 id="titulo-nome" class="text-center text-[2.2rem] texto-vermelho font-bold tracking-tight z-50 relative md:text-left md:text-[4rem] lg:text-[7rem] "> Thiago Silva</h1>
             </div>
-            <div class="w-[50%] mt-8">
-                <p class="text-2xl font-medium texto-branco ">
-                    Sou desenvolvedor front-end e educador,
+            <div class="w-100% mt-4 md:w-[50%] lg:mt-8">
+                <p class="text-base font-ligth md:text-2xl  md:font-medium texto-branco ">
+                    Desenvolvedor front-end e educador,
                     apaixonado por transformar conhecimento em cursos práticos
                     sobre desenvolvimento web e interfaces modernas e responsivas.
                 </p>
             </div>
-            <div class="w-[50%] flex flex-row texto-branco mt-16 justify-evenly">
+            <div class="w-full md:w-[50%] flex flex-row texto-branco justify-evenly mt-8 md:mt-16">
             <div>
-                <button id="btn-curso" class="bg-vermelho texto-branco text-lg font-bold px-14 py-4 rounded-[12rem]"> Ver Curso </button> 
-                <p class=" mt-2 text-[.7rem] text-center">Cursos práticos direto ao ponto</p>
+                <button id="btn-curso" class="bg-vermelho texto-branco text-base font-bold px-8 py-2 rounded-xl  lg:text-lg lg:px-14 lg:py-4"> Ver Curso </button> 
+                <p class=" mt-2 text-[.5rem] text-center lg:text-[.7rem]">Cursos práticos direto ao ponto</p>
             </div>
                 <div>
-                    <button id="btn-contato" class="texto-vermelho text-lg font-bold px-14 py-4 borda-vermelha rounded-[12rem]"> Contato </button>
+                    <button id="btn-contato" class="texto-vermelho text-base font-bold px-8 py-2 borda-vermelha rounded-2xl lg:text-lg lg:px-14 lg:py-4"> Contato </button>
                 </div>
+                
             </div>
-            <div class="w-[50%] flex flex-row texto-branco mt-16 justify-evenly">
-            <div class="flex flex-row justfy-rounded gap-16">
+            <div class="w-full  flex flex-row texto-branco mt-8 justify-evenly lg:w-[50%] lgmt-16">
+            <div class="flex flex-row gap-4 lg:gap-16">
                 <div>
-                    <a href="https://github.com/danHamash"><img class="w-[3rem]" src="./assets/img/github-mark-white.png" alt=" icone github"></a>
+                    <a href="https://github.com/danHamash"><img class="w-[1.5rem] lg:w-[3rem]" src="./assets/img/github-mark-white.png" alt=" icone github"></a>
                   </div>
                 <div>
                     <a href="mailto:carlos30daniel@hotmail.com">
-                        <svg class="w-[3rem] ml-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" data-lov-id="src/components/Hero.tsx:46:12" data-lov-name="Mail" data-component-path="src/components/Hero.tsx" data-component-line="46" data-component-file="Hero.tsx" data-component-name="Mail" data-component-content="%7B%7D">
+                        <svg class=" w-[1.5rem] ml-4 lg:w-[3rem] lg:ml-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" data-lov-id="src/components/Hero.tsx:46:12" data-lov-name="Mail" data-component-path="src/components/Hero.tsx" data-component-line="46" data-component-file="Hero.tsx" data-component-name="Mail" data-component-content="%7B%7D">
                             <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                         </svg>
@@ -48,9 +49,12 @@
             </div>
             
         </div>
-        <div>
-            <img class="w-[660px] absolute right-8 top-0 z-50" src="./assets/img/modelo pronto2.png" alt="imagen de homen com postura de CEO">
-        </div>
+                    <div>
+                        <img class="w-[240px] md:w-[400px] lg:w-[660px] absolute right-[13%] md:right-20 top-0 z-40" src="./assets/img/modelo pronto2.png" alt="imagen de homen com postura de CEO">
+                     </div>
+
+        
+        
     </section>
      <section class="mt-10 flex gap-4 absolute z-50 bottom-5 left-4">
 
